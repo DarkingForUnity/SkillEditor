@@ -1,0 +1,370 @@
+﻿{
+    "name": "Skill Data",
+    "Total": 36,
+    "_skills": [
+        {
+            "id": 0,
+            "name": "技能0",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "aaa",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 7,
+            "name": "节能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "减少CD",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 9,
+            "name": "充能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "充能",
+            "level": 100,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 11,
+            "name": "火龙淡",
+            "sprite_skill": {
+                "instanceID": 844
+            },
+            "describe": "哈哈哈哈",
+            "level": 10,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+		{
+            "id": 0,
+            "name": "技能0",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "aaa",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 7,
+            "name": "节能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "减少CD",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 9,
+            "name": "充能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "充能",
+            "level": 100,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 11,
+            "name": "火龙淡",
+            "sprite_skill": {
+                "instanceID": 844
+            },
+            "describe": "哈哈哈哈",
+            "level": 10,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+		{
+            "id": 0,
+            "name": "技能0",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "aaa",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 7,
+            "name": "节能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "减少CD",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 9,
+            "name": "充能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "充能",
+            "level": 100,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 11,
+            "name": "火龙淡",
+            "sprite_skill": {
+                "instanceID": 844
+            },
+            "describe": "哈哈哈哈",
+            "level": 10,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+		{
+            "id": 0,
+            "name": "技能0",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "aaa",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 7,
+            "name": "节能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "减少CD",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 9,
+            "name": "充能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "充能",
+            "level": 100,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 11,
+            "name": "火龙淡",
+            "sprite_skill": {
+                "instanceID": 844
+            },
+            "describe": "哈哈哈哈",
+            "level": 10,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+		{
+            "id": 0,
+            "name": "技能0",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "aaa",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 7,
+            "name": "节能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "减少CD",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 9,
+            "name": "充能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "充能",
+            "level": 100,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 11,
+            "name": "火龙淡",
+            "sprite_skill": {
+                "instanceID": 844
+            },
+            "describe": "哈哈哈哈",
+            "level": 10,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+		{
+            "id": 0,
+            "name": "技能0",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "aaa",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 7,
+            "name": "节能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "减少CD",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 9,
+            "name": "充能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "充能",
+            "level": 100,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 11,
+            "name": "火龙淡",
+            "sprite_skill": {
+                "instanceID": 844
+            },
+            "describe": "哈哈哈哈",
+            "level": 10,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+		{
+            "id": 0,
+            "name": "技能0",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "aaa",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 7,
+            "name": "节能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "减少CD",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 9,
+            "name": "充能",
+            "sprite_skill": {
+                "instanceID": 840
+            },
+            "describe": "充能",
+            "level": 100,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 11,
+            "name": "火龙淡",
+            "sprite_skill": {
+                "instanceID": 844
+            },
+            "describe": "哈哈哈哈",
+            "level": 10,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        }
+    ]
+}
