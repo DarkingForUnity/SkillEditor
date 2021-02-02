@@ -28,11 +28,11 @@ public class DKSkillEditor : EditorWindow
 
     Skills skills_ = new Skills();
     bool show_window = false;
-    string tmpUrlI;
+    string Url;
 
     private Vector2 m_ScrollPosition;
 
-    [MenuItem("DK/DKSkillEditor")]
+    [MenuItem("Tool_DK/DKSkillEditor")]
     public static void Init()
     {
         DKSkillEditor window = EditorWindow.GetWindow<DKSkillEditor>("Skill Editor Window");
@@ -41,7 +41,7 @@ public class DKSkillEditor : EditorWindow
     }
     void OnGUI()
     {
-        tmpUrlI = Application.dataPath + "/Resources/inputdate.json";
+        Url = Application.dataPath + "/Resources/inputdate.json";
         getdata();
         GUILayout.Space(10);
         EditorGUILayout.BeginHorizontal();
@@ -117,7 +117,7 @@ public class DKSkillEditor : EditorWindow
                     getbuttonskill(sk);
                 }
 
-
+                GUI.color = Color.white;
                 EditorGUILayout.EndHorizontal();
             }
         }
@@ -131,7 +131,7 @@ public class DKSkillEditor : EditorWindow
         if (show_window)
         {
             BeginWindows();//标记开始区域所有弹出式窗口
-            windowRect = GUILayout.Window(0, windowRect, DoWindow, "子窗口");//创建内联窗口,参数分别为id,大小位置，创建子窗口的组件的函数，标题
+            windowRect = GUILayout.Window(0, windowRect, DoWindow, "添加新技能");//创建内联窗口,参数分别为id,大小位置，创建子窗口的组件的函数，标题
             EndWindows();//标记结束
         }
         EditorGUILayout.EndVertical();
@@ -193,7 +193,7 @@ public class DKSkillEditor : EditorWindow
     void getdata()
     {
 
-        StreamReader sr = new StreamReader(tmpUrlI, Encoding.UTF8);
+        StreamReader sr = new StreamReader(Url, Encoding.UTF8);
         string json = sr.ReadToEnd();
         sr.Close();
         if (json.Length > 0)
@@ -225,7 +225,7 @@ public class DKSkillEditor : EditorWindow
     public void setJsonData()
     {
 
-        StreamReader sr = new StreamReader(tmpUrlI, Encoding.UTF8);
+        StreamReader sr = new StreamReader(Url, Encoding.UTF8);
 
         string json = sr.ReadToEnd();
 
@@ -260,7 +260,7 @@ public class DKSkillEditor : EditorWindow
         //用于生成唯一ID
         skills.Total += 1;
         string json_ = JsonUtility.ToJson(skills, true);
-        File.WriteAllText(tmpUrlI, json_, Encoding.UTF8);
+        File.WriteAllText(Url, json_, Encoding.UTF8);
 
     }
     /// <summary>
@@ -269,7 +269,7 @@ public class DKSkillEditor : EditorWindow
     /// <param name="id"></param>
     public void setJsonData(int id)
     {
-        StreamReader sr = new StreamReader(tmpUrlI, Encoding.UTF8);
+        StreamReader sr = new StreamReader(Url, Encoding.UTF8);
         string json = sr.ReadToEnd();
         sr.Close();
         Skills skills = new Skills();
@@ -295,7 +295,7 @@ public class DKSkillEditor : EditorWindow
         skill.key = key;
         
         string json_ = JsonUtility.ToJson(skills, true);
-        File.WriteAllText(tmpUrlI, json_, Encoding.UTF8);
+        File.WriteAllText(Url, json_, Encoding.UTF8);
 
     }
     /// <summary>
@@ -305,7 +305,7 @@ public class DKSkillEditor : EditorWindow
     public void deleteData(int id)
     {
 
-        StreamReader sr = new StreamReader(tmpUrlI, Encoding.UTF8);
+        StreamReader sr = new StreamReader(Url, Encoding.UTF8);
         string json = sr.ReadToEnd();
 
         sr.Close();
@@ -322,7 +322,7 @@ public class DKSkillEditor : EditorWindow
                 }
             }
             string json_ = JsonUtility.ToJson(skills, true);
-            File.WriteAllText(tmpUrlI, json_, Encoding.UTF8);
+            File.WriteAllText(Url, json_, Encoding.UTF8);
         }
     }
     private void OnInspectorUpdate()
