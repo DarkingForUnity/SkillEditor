@@ -1,12 +1,12 @@
 ﻿{
     "name": "Skill Data",
-    "Total": 6,
+    "Total": 18,
     "_skills": [
         {
-            "id": 2,
-            "name": "技能0",
+            "id": 3,
+            "name": "技能1",
             "sprite_skill": {
-                "instanceID": 11378
+                "instanceID": 11408
             },
             "describe": "",
             "level": 0,
@@ -40,6 +40,136 @@
             "hit_rate": 153.0,
             "damage": 123.0,
             "key": 290
+        },
+        {
+            "id": 6,
+            "name": "技能",
+            "sprite_skill": {
+                "instanceID": 11378
+            },
+            "describe": "",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 7,
+            "name": "技能",
+            "sprite_skill": {
+                "instanceID": 11378
+            },
+            "describe": "",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 8,
+            "name": "技能",
+            "sprite_skill": {
+                "instanceID": 11378
+            },
+            "describe": "",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 9,
+            "name": "技能",
+            "sprite_skill": {
+                "instanceID": 11378
+            },
+            "describe": "",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 10,
+            "name": "技能",
+            "sprite_skill": {
+                "instanceID": 11378
+            },
+            "describe": "",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 11,
+            "name": "技能",
+            "sprite_skill": {
+                "instanceID": 11378
+            },
+            "describe": "",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 13,
+            "name": "技能",
+            "sprite_skill": {
+                "instanceID": 11378
+            },
+            "describe": "",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 14,
+            "name": "技能",
+            "sprite_skill": {
+                "instanceID": 11378
+            },
+            "describe": "",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 15,
+            "name": "技能",
+            "sprite_skill": {
+                "instanceID": 11378
+            },
+            "describe": "",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
+        },
+        {
+            "id": 16,
+            "name": "技能",
+            "sprite_skill": {
+                "instanceID": 11378
+            },
+            "describe": "",
+            "level": 0,
+            "cd_time": 0.0,
+            "hit_rate": 0.0,
+            "damage": 0.0,
+            "key": 97
         }
     ]
 }

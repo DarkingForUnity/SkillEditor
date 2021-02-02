@@ -74,6 +74,7 @@ public class DKSkillEditor : EditorWindow
         {
             deleteData(skill_id);
         }
+        GUI.color = Color.white;
         #endregion
 
         EditorGUILayout.EndVertical();
